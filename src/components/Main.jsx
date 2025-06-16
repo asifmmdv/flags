@@ -22,7 +22,7 @@ function Main() {
           <div className="glitch" data-glitch="Loading...">Loading...</div>
         </div>
       ) : (
-        <section className="py-6 sm:py-12 bg-gray-100 text-gray-800 dark:bg-gray-100 dark:text-gray-100">
+        <section className="py-6 sm:py-12 bg-gray-100 text-gray-800 dark:bg-gray-100 ">
           <div className="container p-6 mx-auto space-y-8">
             <div className="space-y-2 text-center">
               <h2 className="text-3xl font-bold">Partem reprimique an pro</h2>
