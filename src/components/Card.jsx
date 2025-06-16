@@ -5,7 +5,7 @@ export const Card = ({ name, capital, flags, region }) => {
           <img
             alt={`${name.common} flag`}
             className="object-cover w-full h-52 dark:bg-gray-500"
-            src={flags?.png}
+            src={flags.png}
           />
         </div>
         <div className="flex flex-col flex-1 p-6">
@@ -16,7 +16,7 @@ export const Card = ({ name, capital, flags, region }) => {
             {name?.common}
           </h3>
           <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
-            <span>{capital?.[0]}</span>
+            <span>{capital[0]}</span>
             <span>{region}</span>
           </div>
         </div>
